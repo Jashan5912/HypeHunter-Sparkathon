@@ -1,0 +1,113 @@
+/* styles.css */
+
+/* Reset some default browser styling */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: black;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container2,
+.container3,
+.container4 {
+    /* Adjust as needed */
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Logo styles */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container img {
+    max-width: 100px; /* Adjust the logo size as needed */
+    margin-right: 10px;
+}
+
+/* Product section styles */
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Product card styles */
+.product-card {
+    flex-basis: calc(25% - 20px);
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-card a {
+    color: black; /* Set the font color of product links */
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #be07f1;
+    
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Additional styles as needed */
+.container h1,
+.container h2,
+.container2 h2, 
+.container3 h2,
+.container4 h2{
+    color: black; /* Set the font color of container headings */
+}

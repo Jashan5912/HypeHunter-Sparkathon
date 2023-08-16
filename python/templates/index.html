@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TRENDZ E-Commerce Store</title>
+    <link rel="stylesheet" href="static\css\styles.css">
+
+    <script src="{{ url_for('static', filename='js/responsive.js') }}"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body><header>
+    <div class="logo-container">
+        <img src="{{ url_for('static', filename='images/HypeHunter.jpg') }}" alt="Hype Hunter Logo">
+        <h1>Welcome to Hype Hunter E-Commerce Store</h1>
+    </div>
+<section id="products">
+    <div class="container products-container">
+        <h2>Technology Products</h2>
+        {{ tech_data | safe }}
+    </div>
+    
+    <div class="container2 products-container">
+        <h2>Sports Products</h2>
+        {{ sports_data | safe }}
+    </div>
+    
+    <div class="container3 products-container">
+        <h2>Health Products</h2>
+        {{ health_data | safe }}
+    </div>
+    
+    <div class="container4 products-container">
+        <h2>All Products</h2>
+        {{ all_data | safe }}
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2023 My E-Commerce Store. All rights reserved.</p>
+</footer>
+</body>
+</html>
